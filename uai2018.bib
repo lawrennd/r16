@@ -60,7 +60,7 @@ year = {2018}
 abstract = {We reconsider a nonparametric density model based on Gaussian processes. By augmenting the model with latent P{\'o}lya--Gamma random variables and a latent marked Poisson process we obtain a new likelihood which is conjugate to the model's Gaussian process prior. The augmented posterior allows for efficient infer- ence by Gibbs sampling and an approximate variational mean field approach. For the latter we utilise sparse GP approximations to tackle the infinite dimensionality of the problem. The performance of both algorithms and compar- isons with other density estimators are demon- strated on artificial and real datasets with up to several thousand data points.},
 author = {Donner, Christian and Opper, Manfred},
 pages = {52-61},
-title = {Efficient Bayesian Inference for a Gaussian Process Density Model},
+title = {Efficient {B}ayesian Inference for a {G}aussian Process Density Model},
 year = {2018}
 }
 
@@ -132,7 +132,7 @@ year = {2018}
 abstract = {In Bayesian Multi-Objective optimisation, ex- pected hypervolume improvement is often used to measure the goodness of candidate solutions. However when there are many ob- jectives the calculation of expected hyper- volume improvement can become computa- tionally prohibitive. An alternative approach measures the goodness of a candidate based on the distance of that candidate from the Pareto front in objective space. In this paper we present a novel distance-based Bayesian Many-Objective optimisation algorithm. We demonstrate the efficacy of our algorithm on three problems, namely the DTLZ2 bench- mark problem, a hyper-parameter selection problem, and high-temperature creep-resistant alloy design.},
 author = {Shilton, Alistair and Rana, Santu and Gupta, Sunil and Venkatesh, Svetha},
 pages = {144-154},
-title = {Multi-Target Optimisation via Bayesian Optimisation and Linear Programming},
+title = {Multi-Target Optimisation via {B}ayesian Optimisation and Linear Programming},
 year = {2018}
 }
 
@@ -140,7 +140,7 @@ year = {2018}
 abstract = {We study the L1-regularized maximum likelihood estimator/estimation (MLE) problem for discrete Markov random fields (MRFs), where efficient and scalable learning requires both sparse regularization and approximate inference. To address these challenges, we consider a stochastic learning framework called stochastic proximal gradient (SPG; Honorio 2012a, Atchade et al. 2014, Miasojedow and Rejchel 2016). SPG is an inexact proximal gradient algorithm [Schmidt et al., 2011], whose inexactness stems from the stochastic oracle (Gibbs sampling) for gradient approximation -- exact gradient evaluation is infeasible in general due to the NP-hard inference problem for discrete MRFs [Koller and Friedman, 2009]. Theoretically, we provide novel verifiable bounds to inspect and control the quality of gradient approximation. Empirically, we propose the tighten asymptotically (TAY) learning strategy based on the verifiable bounds to boost the performance of SPG.},
 author = {Geng, Sinong and Kuang, Zhaobin and Liu, Jie and Wright, Stephen and Page, David},
 pages = {155-165},
-title = {Stochastic Learning for Sparse Discrete Markov Random Fields with Controlled Gradient Approximation Error},
+title = {Stochastic Learning for Sparse Discrete {M}arkov Random Fields with Controlled Gradient Approximation Error},
 year = {2018}
 }
 
@@ -244,7 +244,7 @@ year = {2018}
 abstract = {We present the first framework for Gaussian- process-modulated Poisson processes when the temporal data appear in the form of panel counts. Panel count data frequently arise when experimental subjects are observed only at dis- crete time points and only the numbers of oc- currences of the events between subsequent observation times are available. The exact occurrence timestamps of the events are un- known. The method of conducting the efficient variational inference is presented, based on the assumption of a Gaussian-process-modulated intensity function. We derive a tractable lower bound to alleviate the problems of the in- tractable evidence lower bound inherent in the variational inference framework. Our algo- rithm outperforms classical methods on both synthetic and three real panel count sets.},
 author = {Ding, Hongyi and Lee, Young and Sato, Issei and Sugiyama, Masashi},
 pages = {289-298},
-title = {Variational Inference for Gaussian Processes with Panel Count Data},
+title = {Variational Inference for {G}aussian Processes with Panel Count Data},
 year = {2018}
 }
 
@@ -300,7 +300,7 @@ year = {2018}
 abstract = {Zero-inflated datasets, which have an ex- cess of zero outputs, are commonly en- countered in problems such as climate or rare event modelling. Conventional ma- chine learning approaches tend to overesti- mate the non-zeros leading to poor perfor- mance. We propose a novel model family of zero-inflated Gaussian processes (ZiGP) for such zero-inflated datasets, produced by sparse kernels through learning a la- tent probit Gaussian process that can zero out kernel rows and columns whenever the signal is absent. The ZiGPs are particu- larly useful for making the powerful Gaus- sian process networks more interpretable. We introduce sparse GP networks where variable-order latent modelling is achieved through sparse mixing signals. We derive the non-trivial stochastic variational infer- ence tractably for scalable learning of the sparse kernels in both models. The novel output-sparse approach improves both pre- diction of zero-inflated data and inter- pretability of latent mixing models.},
 author = {Hegde, Pashupati and Heinonen, Markus and Kaski, Samuel},
 pages = {360-370},
-title = {Variational zero-inflated Gaussian processes with sparse kernels},
+title = {Variational zero-inflated {G}aussian processes with sparse kernels},
 year = {2018}
 }
 
@@ -356,7 +356,7 @@ year = {2018}
 abstract = {Gaussian process survival analysis model (GP- SAM) was recently proposed to address key deficiencies of the Cox proportional hazard model, namely the need to account for uncer- tainty in the hazard function modeling while, at the same time, relaxing the time-covariates factorized assumption of the Cox model. How- ever, the existing MCMC inference algorithms for GPSAM have proven to be slow in prac- tice. In this paper we propose novel and scal- able variational inference algorithms for GP- SAM that reduce the time complexity of the sampling approaches and improve scalability to large datasets. We accomplish this by em- ploying two effective strategies in scalable GP: i) using pseudo inputs and ii) approximation via random feature expansions. In both setups, we derive the full and partial likelihood formu- lations, typically considered in survival analy- sis settings. The proposed approaches are eval- uated on two clinical and a divorce-marriage benchmark datasets, where we demonstrate improvements in prediction accuracy over the existing survival analysis methods, while re- ducing the complexity of inference compared to the recent state-of-the-art MCMC-based al- gorithms.},
 author = {Kim, Minyoung and Pavlovic, Vladimir},
 pages = {434-444},
-title = {Variational Inference for Gaussian Process Models for Survival Analysis},
+title = {Variational Inference for {G}aussian Process Models for Survival Analysis},
 year = {2018}
 }
 
@@ -412,7 +412,7 @@ year = {2018}
 abstract = {Stochastic variance-reduced gradient Langevin dynamics (SVRG-LD) was recently proposed to improve the performance of stochastic gra- dient Langevin dynamics (SGLD) by reduc- ing the variance of the stochastic gradient. In this paper, we propose a variant of SVRG-LD, namely SVRG-LD+, which replaces the full gradient in each epoch with a subsampled one. We provide a nonasymptotic analysis of the convergence of SVRG-LD+ in 2-Wasserstein distance, and show that SVRG-LD+ enjoys a lower gradient complexity1 than SVRG-LD, when the sample size is large or the target ac- curacy requirement is moderate. Our analysis directly implies a sharper convergence rate for SVRG-LD, which improves the existing con- vergence rate by a factor of κ1/6n1/6, where κ is the condition number of the log-density function and n is the sample size. Experiments on both synthetic and real-world datasets vali- date our theoretical results.},
 author = {Zou, Difan and Xu, Pan and Gu, Quanquan},
 pages = {507-517},
-title = {Subsampled Stochastic Variance-Reduced Gradient Langevin Dynamics},
+title = {Subsampled Stochastic Variance-Reduced Gradient {L}angevin Dynamics},
 year = {2018}
 }
 
@@ -516,7 +516,7 @@ year = {2018}
 abstract = {Learning from small data sets is critical in many practical applications where data col- lection is time consuming or expensive, e.g., robotics, animal experiments or drug design. Meta learning is one way to increase the data efficiency of learning algorithms by general- izing learned concepts from a set of training tasks to unseen, but related, tasks. Often, this relationship between tasks is hard coded or re- lies in some other way on human expertise. In this paper, we frame meta learning as a hi- erarchical latent variable model and infer the relationship between tasks automatically from data. We apply our framework in a model- based reinforcement learning setting and show that our meta-learning model effectively gen- eralizes to novel tasks by identifying how new tasks relate to prior ones from minimal data. This results in up to a 60\% reduction in the average interaction time needed to solve tasks compared to strong baselines.},
 author = {Saemundsson, Steindor and Hofmann, Katja and Deisenroth, Marc Peter},
 pages = {641-651},
-title = {Meta Reinforcement Learning with Latent Variable Gaussian Processes},
+title = {Meta Reinforcement Learning with Latent Variable {G}aussian Processes},
 year = {2018}
 }
 
@@ -580,7 +580,7 @@ year = {2018}
 abstract = {Marginal MAP is a key task in Bayesian in- ference and decision-making, and known to be very challenging in general. In this paper, we present an algorithm that blends heuristic search and importance sampling to provide any- time finite-sample bounds for marginal MAP along with predicted MAP solutions. We con- vert bounding marginal MAP to a surrogate task of bounding a series of summation prob- lems of an augmented graphical model, and then adapt dynamic importance sampling [Lou et al., 2017b], a recent advance in bounding the partition function, to provide finite-sample bounds for the surrogate task. Those bounds are guaranteed to be tight given enough time, and the values of the predicted MAP solutions will converge to the optimum. Our algorithm runs in an anytime/anyspace manner, which gives flexible trade-offs between memory, time, and solution quality. We demonstrate the effective- ness of our approach empirically on multiple challenging benchmarks in comparison with some state-of-the-art search algorithms.},
 author = {Lou, Qi and Dechter, Rina and Ihler, Alexander},
 pages = {724-733},
-title = {Finite-sample Bounds for Marginal MAP},
+title = {Finite-sample Bounds for Marginal {MAP}},
 year = {2018}
 }
 
@@ -588,7 +588,7 @@ year = {2018}
 abstract = {The conditional independence structure in- duced on the observed marginal distribution by a hidden variable directed acyclic graph (DAG) may be represented by a graphical model rep- resented by mixed graphs called maximal an- cestral graphs (MAGs). This model has a num- ber of desirable properties, in particular the set of Gaussian distributions can be parameterized by viewing the graph as a path diagram. Mod- els represented by MAGs have been used for causal discovery [22], and identification theory for causal effects [28]. In addition to ordinary conditional indepen- dence constraints, hidden variable DAGs also induce generalized independence constraints. These constraints form the nested Markov property [20]. We first show that acyclic linear SEMs obey this property. Further we show that a natural parameterization for all Gaussian dis- tributions obeying the nested Markov property arises from a generalization of maximal ances- tral graphs that we call maximal arid graphs (MArG). We show that every nested Markov model can be associated with a MArG; viewed as a path diagram this MArG parametrizes the Gaussian nested Markov model. This leads di- rectly to methods for ML fitting and computing BIC scores for Gaussian nested models.},
 author = {Shpitser, Ilya and Evans, Robin and Richardson, Thomas S.},
 pages = {734-744},
-title = {Acyclic Linear SEMs Obey the Nested Markov Property},
+title = {Acyclic Linear SEMs Obey the Nested {M}arkov Property},
 year = {2018}
 }
 
@@ -596,7 +596,7 @@ year = {2018}
 abstract = {There has been recent interest in developing scalable Bayesian sampling methods such as stochastic gradient MCMC (SG-MCMC) and Stein variational gradient descent (SVGD) for big-data analysis. A standard SG-MCMC algo- rithm simulates samples from a discrete-time Markov chain to approximate a target distribu- tion, thus samples could be highly correlated, an undesired property for SG-MCMC. In con- trary, SVGD directly optimizes a set of particles to approximate a target distribution, and thus is able to obtain good approximations with rela- tively much fewer samples. In this paper, we propose a principle particle-optimization frame- work based on Wasserstein gradient flows to unify SG-MCMC and SVGD, and to allow new algorithms to be developed. Our framework interprets SG-MCMC as particle optimization on the space of probability measures, revealing a strong connection between SG-MCMC and SVGD. The key component of our framework is several particle-approximate techniques to efficiently solve the original partial differential equations on the space of probability measures. Extensive experiments on both synthetic data and deep neural networks demonstrate the ef- fectiveness and efficiency of our framework for scalable Bayesian sampling.},
 author = {Chen, Changyou and Zhang, Ruiyi and Wang, Wenlin and Li, Bai and Chen, Liqun},
 pages = {745-754},
-title = {A Unified Particle-Optimization Framework for Scalable Bayesian Sampling},
+title = {A Unified Particle-Optimization Framework for Scalable {B}ayesian Sampling},
 year = {2018}
 }
 
@@ -668,7 +668,7 @@ year = {2018}
 abstract = {A latent force model is a Gaussian process with a covariance function inspired by a differential operator. Such covariance function is obtained by performing convolution integrals between Green's functions associated to the differential operators, and covariance functions associated to latent functions. In the classical formula- tion of latent force models, the covariance func- tions are obtained analytically by solving a dou- ble integral, leading to expressions that involve numerical solutions of different types of error functions. In consequence, the covariance ma- trix calculation is considerably expensive, be- cause it requires the evaluation of one or more of these error functions. In this paper, we use random Fourier features to approximate the so- lution of these double integrals obtaining sim- pler analytical expressions for such covariance functions. We show experimental results using ordinary differential operators and provide an extension to build general kernel functions for convolved multiple output Gaussian processes.},
 author = {Guarnizo, Cristian and {\'A}lvarez, Mauricio},
 pages = {834-843},
-title = {Fast Kernel Approximations for Latent Force Models and Convolved Multiple-Output Gaussian processes},
+title = {Fast Kernel Approximations for Latent Force Models and Convolved Multiple-Output {G}aussian processes},
 year = {2018}
 }
 
@@ -716,7 +716,7 @@ year = {2018}
 abstract = {We propose a new way to answer probabilis- tic queries that span multiple datapoints. We formalize reasoning about the similarity of dif- ferent datapoints as the evaluation of the Bayes Factor within a hierarchical deep generative model that enforces a separation between the latent variables used for representation learning and those used for reasoning. Under this model, we derive an intuitive estimator for the Bayes Factor that represents similarity as the amount of overlap in representation space shared by dif- ferent points. The estimator we derive relies on a query-conditional latent reasoning network, that parameterizes a distribution over the latent space of the deep generative model. The latent reasoning network is trained to amortize the posterior-predictive distribution under a hierar- chical model using supervised data and a max- margin learning algorithm. We explore how the model may be used to focus the data variations captured in the latent space of the deep genera- tive model and how this may be used to build new algorithms for few-shot learning.},
 author = {Krishnan, Rahul G. and Khandelwal, Arjun and Ranganath, Rajesh and Sontag, David},
 pages = {895-904},
-title = {Max-margin learning with the Bayes factor},
+title = {Max-margin learning with the {B}ayes factor},
 year = {2018}
 }
 
@@ -732,7 +732,7 @@ year = {2018}
 abstract = {Lifted inference reduces the complexity of in- ference in relational probabilistic models by identifying groups of constants (or atoms) which behave symmetric to each other. A number of techniques have been proposed in the literature for lifting marginal as well MAP inference. We present the first application of lifting rules for marginal-MAP (MMAP), an important inference problem in models having latent (random) variables. Our main contribu- tion is two fold: (1) we define a new equiv- alence class of (logical) variables, called Sin- gle Occurrence for MAX (SOM), and show that solution lies at extreme with respect to the SOM variables, i.e., predicate groundings differing only in the instantiation of the SOM variables take the same truth value (2) we de- fine a sub-class SOM-R (SOM Reduce) and exploit properties of extreme assignments to show that MMAP inference can be performed by reducing the domain of SOM-R variables to a single constant. We refer to our lifting technique as the SOM-R rule for lifted MMAP. Combined with existing rules such as decom- poser and binomial, this results in a power- ful framework for lifted MMAP. Experiments on three benchmark domains show significant gains in both time and memory compared to ground inference as well as lifted approaches not using SOM-R.},
 author = {Sharma, Vishal and Sheikh, Noman Ahmed and Mittal, Happy and Gogate, Vibhav and Singla, Parag},
 pages = {916-925},
-title = {Lifted Marginal MAP Inference},
+title = {Lifted Marginal {MAP} Inference},
 year = {2018}
 }
 
@@ -740,7 +740,7 @@ year = {2018}
 abstract = {We consider the problem of predicting plausible missing facts in relational data, given a set of imperfect logical rules. In particular, our aim is to provide bounds on the (expected) number of incorrect inferences that are made in this way. Since for classical inference it is in general impossible to bound this number in a non-trivial way, we consider two inference relations that weaken, but remain close in spirit to classical inference.},
 author = {Kuzelka, Ondrej and Wang, Yuyi and Davis, Jesse and Schockaert, Steven},
 pages = {926-935},
-title = {PAC-Reasoning in Relational Domains},
+title = {{PAC}-Reasoning in Relational Domains},
 year = {2018}
 }
 
@@ -780,7 +780,7 @@ year = {2018}
 abstract = {Assessing the magnitude of cause-and-effect relations is one of the central challenges found throughout the empirical sciences. The prob- lem of identification of causal effects is con- cerned with determining whether a causal ef- fect can be computed from a combination of observational data and substantive knowledge about the domain under investigation, which is formally expressed in the form of a causal graph. In many practical settings, however, the knowledge available for the researcher is not strong enough so as to specify a unique causal graph. Another line of investigation attempts to use observational data to learn a qualita- tive description of the domain called a Markov equivalence class, which is the collection of causal graphs that share the same set of ob- served features. In this paper, we marry both approaches and study the problem of causal identification from an equivalence class, repre- sented by a partial ancestral graph (PAG). We start by deriving a set of graphical properties of PAGs that are carried over to its induced sub- graphs. We then develop an algorithm to com- pute the effect of an arbitrary set of variables on an arbitrary outcome set. We show that the algorithm is strictly more powerful than the current state of the art found in the literature.},
 author = {Jaber, Amin and Zhang, Jiji and Bareinboim, Elias},
 pages = {977-986},
-title = {Causal Identification under Markov Equivalence},
+title = {Causal Identification under {M}arkov Equivalence},
 year = {2018}
 }
 
@@ -828,7 +828,7 @@ year = {2018}
 abstract = {Automatic design via Bayesian optimization holds great promise given the constant increase of available data across domains. However, it faces difficulties from high-dimensional, poten- tially discrete, search spaces. We propose to probabilistically embed inputs into a lower di- mensional, continuous latent space, where we perform gradient-based optimization guided by a Gaussian process. Building on variational au- toncoders, we use both labeled and unlabeled data to guide the encoding and increase its ac- curacy. In addition, we propose an adversar- ial extension to render the latent representa- tion invariant with respect to specific design attributes, which allows us to transfer these at- tributes across structures. We apply the frame- work both to a functional-protein dataset and to perform optimization of drag coefficients di- rectly over high-dimensional shapes without in- corporating domain knowledge or handcrafted features.},
 author = {Eismann, Stephan and Levy, Daniel and Shu, Rui and Bartzsch, Stefan and Ermon, Stefano},
 pages = {1041-1051},
-title = {Bayesian optimization and attribute adjustment},
+title = {{B}ayesian optimization and attribute adjustment},
 year = {2018}
 }
 
@@ -844,7 +844,7 @@ year = {2018}
 abstract = {Causal discovery methods aim to recover the causal process that generated purely observa- tional data. Despite its successes on a number of real problems, the presence of measurement error in the observed data can produce seri- ous mistakes in the output of various causal discovery methods. Given the ubiquity of measurement error caused by instruments or proxies used in the measuring process, this problem is one of the main obstacles to reli- able causal discovery. It is still unknown to what extent the causal structure of relevant variables can be identified in principle. This study aims to take a step towards filling that void. We assume that the underlining pro- cess or the measurement-error free variables follows a linear, non-Guassian causal model, and show that the so-called ordered group decomposition of the causal model, which con- tains major causal information, is identifiable. The causal structure identifiability is further improved with different types of sparsity con- straints on the causal structure. Finally, we give rather mild conditions under which the whole causal structure is fully identifiable.},
 author = {Zhang, Kun and Gong, Mingming and Ramsey, Joseph and Batmanghelich, Kayhan and Spirtes, Peter and Glymour, Clark},
 pages = {1062-1071},
-title = {Causal Discovery with Linear Non-Gaussian Models under Measurement Error: Structural Identifiability Results},
+title = {Causal Discovery with Linear Non-{G}aussian Models under Measurement Error: Structural Identifiability Results},
 year = {2018}
 }
 
