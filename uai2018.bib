@@ -12,6 +12,7 @@
     address = {Monterey, California, USA},
     conference_url = {https://www.auai.org/uai2018/},
     conference_number = {34},
+    volume = {r16},
     published = {2026-10-04},
     firstpublished = {2018-08-06},
 }
@@ -28,7 +29,7 @@ year = {2018}
 abstract = {We study multi-armed bandit problems with graph feedback, in which the decision maker is allowed to observe the neighboring actions of the chosen action, in a setting where the graph may vary over time and is never fully revealed to the decision maker. We show that when the feedback graphs are undirected, the original Thompson Sampling achieves the optimal (within logarithmic factors) regret ˜O p β0(G)T  over time horizon T, where β0(G) is the average independence number of the latent graphs. To the best of our knowl- edge, this is the first result showing that the original Thompson Sampling is optimal for graphical bandits in the undirected setting. A slightly weaker regret bound of Thompson Sampling in the directed setting is also pre- sented. To fill this gap, we propose a variant of Thompson Sampling, that attains the opti- mal regret in the directed setting within a log- arithmic factor. Both algorithms can be im- plemented efficiently and do not require the knowledge of the feedback graphs at any time.},
 author = {Liu, Fang and Zheng, Zizhan and Shroff, Ness},
 pages = {12-21},
-title = {Analysis of Thompson Sampling for Graphical Bandits Without the Graphs},
+title = {Analysis of {T}hompson Sampling for Graphical Bandits Without the Graphs},
 year = {2018}
 }
 
@@ -44,7 +45,7 @@ year = {2018}
 abstract = {The essential graph is a distinguished member of a Markov equivalence class of AMP chain graphs. However, the directed edges in the es- sential graph are not necessarily strong or in- variant, i.e. they may not be shared by every member of the equivalence class. Likewise for the undirected edges. In this paper, we develop a procedure for identifying which edges in an essential graph are strong. We also show how this makes it possible to bound some causal ef- fects when the true chain graph is unknown.},
 author = {Pe{\~n}a, Jose M.},
 pages = {32-41},
-title = {Identification of Strong Edges in AMP Chain Graphs},
+title = {Identification of Strong Edges in {AMP} Chain Graphs},
 year = {2018}
 }
 
@@ -52,7 +53,7 @@ year = {2018}
 abstract = {Area under ROC (AUC) is an important met- ric for binary classification and bipartite rank- ing problems. However, it is difficult to di- rectly optimize AUC as a learning objective, so most existing algorithms are based on optimiz- ing a surrogate loss to AUC. One significant drawback of these surrogate losses is that they require pairwise comparisons among training data, which leads to slow running time and in- creasing local storage for online learning. In this work, we describe a new surrogate loss based on a reformulation of AUC risk, which does not require pairwise comparison but rank- ings of the predictions. We further show that the ranking operation can be avoided, and the learning objective obtained based on this sur- rogate enjoys linear complexity in time and storage. We perform experiments to demon- strate the effectiveness of the online and batch algorithms for AUC optimization based on the proposed surrogate loss.},
 author = {Lyu, Siwei and Ying, Yiming},
 pages = {42-51},
-title = {A Univariate Bound of Area Under ROC},
+title = {A Univariate Bound of Area Under {ROC}},
 year = {2018}
 }
 
@@ -116,7 +117,7 @@ year = {2018}
 abstract = {Symmetric nonnegative matrix factorization has found abundant applications in various do- mains by providing a symmetric low-rank de- composition of nonnegative matrices. In this paper we propose a Frank-Wolfe (FW) solver to optimize the symmetric nonnegative matrix factorization problem under a simplicial con- straint, which has recently been proposed for probabilistic clustering. Compared with exist- ing solutions, this algorithm is simple to imple- ment, and has no hyperparameters to be tuned. Building on the recent advances of FW algo- rithms in nonconvex optimization, we prove an O(1/ε2) convergence rate to ε-approximate KKT points, via a tight bound Θ(n2) on the cur- vature constant, which matches the best known result in unconstrained nonconvex setting using gradient methods. Numerical results demon- strate the effectiveness of our algorithm. As a side contribution, we construct a simple nons- mooth convex problem where the FW algorithm fails to converge to the optimum. This result raises an interesting question about necessary conditions of the success of the FW algorithm on convex problems.},
 author = {Zhao, Han and Gordon, Geoff},
 pages = {123-133},
-title = {Frank-Wolfe Optimization for Symmetric-NMF under Simplicial Constraint},
+title = {{F}rank-{W}olfe Optimization for Symmetric-{NMF} under Simplicial Constraint},
 year = {2018}
 }
 
@@ -172,7 +173,7 @@ year = {2018}
 abstract = {Learning sparse features from only positive and unlabeled (PU) data is a fundamental task for problems of several domains, such as natural lan- guage processing (NLP), computer vision (CV), information retrieval (IR). Considering the nu- merous amount of unlabeled data, most prevalent methods rely on negative sampling (NS) to in- crease computational efficiency. However, sam- pling a fraction of unlabeled data as negative for training may ignore other important examples, and thus lead to non-optimal prediction perfor- mance. To address this, we present a fast and generic batch gradient descent optimizer (fBGD) to learn from all training examples without sam- pling. By leveraging sparsity in PU data, we ac- celerate fBGD by several magnitudes, making its time complexity the same level as the NS- based stochastic gradient descent method. Mean- while, we observe that the standard batch gradi- ent method suffers from gradient instability is- sues due to the sparsity property. Driven by a theoretical analysis for this potential cause, an in- tuitive solution arises naturally. To verify its effi- cacy, we perform experiments on multiple tasks with PU data across domains, and show that fBGD consistently outperforms NS-based mod- els on all tasks with comparable efficiency.},
 author = {YUAN, Fajie and Xin, Xin and He, Xiangnan and Guo, Guibing and Zhang, Weinan and Tat-Seng, CHUA and Jose, Joemon},
 pages = {197-206},
-title = {$f_{BGD}$: Learning Embeddings From Positive Unlabeled Data with BGD},
+title = {$f_{BGD}$: Learning Embeddings From Positive Unlabeled Data with {BGD}},
 year = {2018}
 }
 
@@ -316,7 +317,7 @@ year = {2018}
 abstract = {In zero-shot learning (ZSL), a classifier is trained to recognize visual classes without any image samples. Instead, it is given seman- tic information about the class, like a textual description or a set of attributes. Learning from attributes could benefit from explicitly modeling structure of the attribute space. Un- fortunately, learning of general structure from empirical samples is hard with typical dataset sizes. Here we describe LAGO1, a probabilistic model designed to capture natural soft and- or relations across groups of attributes. We show how this model can be learned end-to- end with a deep attribute-detection model. The soft group structure can be learned from data jointly as part of the model, and can also read- ily incorporate prior knowledge about groups if available. The soft and-or structure suc- ceeds to capture meaningful and predictive structures, improving the accuracy of zero-shot learning on two of three benchmarks. Finally, LAGO reveals a unified formulation over two ZSL approaches: DAP (Lampert et al., 2009) and ESZSL (Romera-Paredes \& Torr, 2015). Interestingly, taking only one sin- gleton group for each attribute, introduces a new soft-relaxation of DAP, that outperforms DAP by ∼40\%.},
 author = {Atzmon, Yuval and Chechik, Gal},
 pages = {381-391},
-title = {Probabilistic AND-OR Attribute Grouping for Zero-Shot Learning},
+title = {Probabilistic {AND}-{OR} Attribute Grouping for Zero-Shot Learning},
 year = {2018}
 }
 
@@ -468,7 +469,7 @@ year = {2018}
 abstract = {Advances in deep learning have led to substan- tial increases in prediction accuracy but have been accompanied by increases in the cost of rendering predictions. We conjecture that for a majority of real-world inputs, the recent ad- vances in deep learning have created models that effectively ``over-think'' on simple inputs. In this paper we revisit the classic question of building model cascades that primarily leverage class asymmetry to reduce cost. We introduce the ``I Don't Know'' (IDK) prediction cascades framework, a general framework to systemat- ically compose a set of pre-trained models to accelerate inference without a loss in predic- tion accuracy. We propose two search based methods for constructing cascades as well as a new cost-aware objective within this frame- work. The proposed IDK cascade framework can be easily adopted in the existing model serving systems without additional model re- training. We evaluate the proposed techniques on a range of benchmarks to demonstrate the effectiveness of the proposed framework.},
 author = {Wang, Xin and Luo, Yujia and Crankshaw, Daniel and Tumanov, Alexey and Yu, Fisher and Gonzalez, Joseph E.},
 pages = {579-589},
-title = {IDK Cascades: Fast Deep Learning by Learning not to Overthink},
+title = {{IDK} Cascades: Fast Deep Learning by Learning not to Overthink},
 year = {2018}
 }
 
@@ -724,7 +725,7 @@ year = {2018}
 abstract = {WTA (Winner Take All) hashing has been suc- cessfully applied in many large-scale vision applications. This hashing scheme was tai- lored to take advantage of the comparative rea- soning (or order based information), which showed significant accuracy improvements. In this paper, we identify a subtle issue with WTA, which grows with the sparsity of the datasets. This issue limits the discriminative power of WTA. We then propose a solution to this problem based on the idea of Densification which makes use of 2-universal hash functions in a novel way. Our experiments show that Densified WTA Hashing outperforms Vanilla WTA Hashing both in image retrieval and clas- sification tasks consistently and significantly.},
 author = {Chen, Beidi and Shrivastava, Anshumali},
 pages = {905-915},
-title = {Densified Winner Take All (WTA) Hashing for Sparse Datasets},
+title = {Densified Winner Take All ({WTA}) Hashing for Sparse Datasets},
 year = {2018}
 }
 
@@ -820,7 +821,7 @@ year = {2018}
 abstract = {A large number of objectives have been proposed to train latent variable generative models. We show that many of them are Lagrangian dual functions of the same primal optimization prob- lem. The primal problem optimizes the mutual information between latent and visible variables, subject to the constraints of accurately model- ing the data distribution and performing correct amortized inference. By choosing to maximize or minimize mutual information, and choosing different Lagrange multipliers, we obtain differ- ent objectives including InfoGAN, ALI/BiGAN, ALICE, CycleGAN, beta-VAE, adversarial au- toencoders, AVB, AS-VAE and InfoVAE. Based on this observation, we provide an exhaustive characterization of the statistical and computa- tional trade-offs made by all the training objec- tives in this class of Lagrangian duals. Next, we propose a dual optimization method where we optimize model parameters as well as the La- grange multipliers. This method achieves Pareto optimal solutions in terms of optimizing informa- tion and satisfying the constraints.},
 author = {Zhao, Shengjia and Song, Jiaming and Ermon, Stefano},
 pages = {1030-1040},
-title = {A Lagrangian Perspective on Latent Variable Generative Models},
+title = {A {L}agrangian Perspective on Latent Variable Generative Models},
 year = {2018}
 }
 
